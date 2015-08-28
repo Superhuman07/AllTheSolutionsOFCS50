@@ -1,0 +1,1 @@
+<?= "Password was successfully changed!" ?>

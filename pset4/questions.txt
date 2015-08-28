@@ -1,0 +1,19 @@
+0.  16M, 256, 16M, 256T->  BMP, GIF, JPEG, and PNG respectively.
+1.  GIF
+2.  lossy compression => unreversible,lossless compression => reversible
+3.  JPEG
+4.  When the operating system erases a FAT ﬁle, two things occur. First, the system modiﬁes the ﬁlename’s ﬁrst character in the ﬁle’s directory entry to signal that the ﬁle has been deleted and that the directory entry can be recycled. Second, the system moves all of the ﬁle’s FAT clusters to the hard drive’s list of free clusters. The actual ﬁle data is never touched.
+5.  Overwriting the drive’s data so that it cannot be recovered
+6.  The <stdint.h> header declares sets of integer types having specified widths, and also helps to define corresponding sets of macros.
+7.  They are equal respectively to: unsigned char, unsigned short, unsigned int and unsigned long long.
+8.  8, 32 ,32 ,16 bits respectively.
+9.  bfType Specifies the file type. It must be set to the signature word BM (0x4D42) to indicate bitmap.
+10. biSize Specifies the size of the structure, in bytes. This size does not include the color table or the masks mentioned in the biClrUsed member. biClrUsed specifies the number of color indexes in the color table that are actually used by the bitmap.
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper left corner.
+12. biBitCount Specifies the number of bits per pixel.
+13. Some problem with space or not provided with authorization
+14. Since there will be only 1 BITMAPINFOHEADER inside a bmp, the fread should only read 1 set of sizeof(BITMAPFILEHEADER).
+15. 1
+16. It sets the file position indicator for the inptr pointed to by inptr. 
+17. It is the current position indicator of the file.
+18. Rob Bowden

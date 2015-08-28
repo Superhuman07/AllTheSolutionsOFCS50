@@ -1,0 +1,3 @@
+<?php
+$stock = lookup($_POST["symbol"]);
+?>

@@ -1,0 +1,35 @@
+<table class="table table-striped-2">
+
+    <thead>
+        <tr>
+            <th>Transaction</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    <?php
+	    foreach ($history as $row)	
+        {   
+            echo("<tr>");
+            echo("<td>" . $row["tran"] . "</td>");
+            echo("<td>" . $row["date"] . "</td>");
+            echo("<td>" . $row["symbol"] . "</td>");
+	    echo("<td>" . $row["shares"] . "</td>");
+            echo("<td>$" . number_format($row["price"], 2) . "</td>");
+            echo("<td>$" . number_format($row["total"], 2) . "</td>");
+            echo("</tr>");
+        }
+    ?>
+
+    <tr>
+        <td colspan="4">CASH</td>
+        <td>$<?=number_format($users[0]["cash"], 2)?></td>
+    </tr>
+
+    </tbody>
+
+</table>

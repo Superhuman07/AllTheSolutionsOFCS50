@@ -1,0 +1,27 @@
+0.  an artificial long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  getrusage()  returns  resource usage measures for who, which can be one
+    of the following:
+
+       RUSAGE_SELF
+              Return resource usage statistics for the calling process,  which
+              is the sum of resources used by all threads in the process.
+
+       RUSAGE_CHILDREN
+              Return resource usage statistics for all children of the calling
+              process that have terminated and been waited for.  These statis-
+              tics  will include the resources used by grandchildren, and fur-
+              ther removed descendants, if all of the intervening  descendants
+              waited on their terminated children.
+
+       RUSAGE_THREAD (since Linux 2.6.26)
+              Return resource usage statistics for the calling thread.
+
+2.  16
+3.  so that time before and after does change and dont remain the same time before the calculation.
+4.  for (int c = fgetc(fp); c != EOF; c = fgetc(fp)) this line of code states that the line reading begins with first letter then it gets updated and reads or gets the chars until we reach the end of the file i.e. the update part of the code help to iterate the chars in the file.
+5.  we have used the fgetc function as it compares each char value to do the desired function however we can't use the fscanf because we get the string values not the chars to compare it i.e. the value one by one which takes less time than using whole string to compare. 
+6.  we have declared constant variables for load and check functions because we don't want to rechange again and again all the variables of the functions in each line of code i.e. why the constant keyword comes in handy to make sure we can get all the variables values changed at lesser time.
+7.  I have used hash able with link lists containg 
+8.  First time it didn't work at all but at trying its word count was too much higher than the last time.
+9.  Changed the word count variable to global so that it takes less time.
+10. Nope
